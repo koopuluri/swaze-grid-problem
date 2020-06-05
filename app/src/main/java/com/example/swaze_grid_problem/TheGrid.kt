@@ -28,8 +28,6 @@ class TheGrid(
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
 
-        println("klas;jfkl;adsjfkl;jsadkl;jfkl;adsjfkl;ajsd;lfjadkls;jfl;ajsl;fjlak;DJ drawing the grid: " + UTIL.numCols + " rows; " + UTIL.numRows + " cellWidth: " + UTIL.cellWidthPixels)
-
         // drawing the grid:
         for (x in 0 until UTIL.numRows) {
             for (y in 0 until UTIL.numCols) {
